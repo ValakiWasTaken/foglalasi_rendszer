@@ -28,18 +28,26 @@ header {
 }
 
 header button {
-    margin-top: 250px;
+    margin-top: 280px;
+    min-width: 15rem;
+    min-height: 3rem;
+    font-size: larger !important;
 }
 
-.szolgaltatasok h2 {
+h2 {
     text-align: center;
     margin-top: 20px;
 }
 
-.szolgaltatasok_cards {
+.cards {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 5%;
     margin-top: 20px;
+}
+
+hr {
+    margin: 30px 20px;
 }
