@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fodrász szalon</title>
+    <title>Vágó úr Fodrászata</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -28,7 +28,7 @@
                     <li class="nav-item">
                         <a class="nav-link nav_admin"
                             title="Foglalások megtekintése (adminisztrátori hozzáférés szükséges)"
-                            href="/foglalások/foglalasok.html">Foglalások</a>
+                            href="bejelentkezés/bejelentkezes.html">Foglalások</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav_common" title="Időpontfoglalás" href="/foglalás/foglalas.html">Foglalj
@@ -40,7 +40,7 @@
     </nav>
 
     <header>
-        <a href="/foglalás/foglalas.html"><button type="button" class="btn btn-primary">Foglalj Most!</button></a>
+        <button type="button" class="btn btn-primary" onclick="document.location='foglalás/foglalas.html'">Foglalj Most!</button>
     </header>
 
     <div class="szolgaltatasok">
@@ -81,7 +81,7 @@
         <div class="cards">
             <div class="card" style="width: 20rem;">
                 <div class="card-body">
-                    <h5 class="card-title">vélemény</h5>
+                    <h5 class="card-title">Név</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore velit
                         impedit quasi sapiente sed fuga minus voluptates corrupti quibusdam sequi ut deleniti tenetur
                         quae quaerat, obcaecati quia laudantium distinctio ducimus!</p>
@@ -89,7 +89,7 @@
             </div>
             <div class="card" style="width: 20rem;">
                 <div class="card-body">
-                    <h5 class="card-title">vélemény</h5>
+                    <h5 class="card-title">Név</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore velit
                         impedit quasi sapiente sed fuga minus voluptates corrupti quibusdam sequi ut deleniti tenetur
                         quae quaerat, obcaecati quia laudantium distinctio ducimus!</p>
@@ -97,21 +97,22 @@
             </div>
             <div class="card" style="width: 20rem;">
                 <div class="card-body">
-                    <h5 class="card-title">vélemény</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore velit
-                        impedit quasi sapiente sed fuga minus voluptates corrupti quibusdam sequi ut deleniti tenetur
-                        quae quaerat, obcaecati quia laudantium distinctio ducimus!</p>
-                </div>
-            </div>
-            <div class="card" style="width: 20rem;">
-                <div class="card-body">
-                    <h5 class="card-title">vélemény</h5>
+                    <h5 class="card-title">Név</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore velit
                         impedit quasi sapiente sed fuga minus voluptates corrupti quibusdam sequi ut deleniti tenetur
                         quae quaerat, obcaecati quia laudantium distinctio ducimus!</p>
                 </div>
             </div>
         </div>
+    </div>
+
+    <footer>
+        <p>© Vágó Fodrászat Bt. (2026), minden jog fenntartva</p>
+        <p>Oldalt készítette: Prell Ádám, Horváth Benedek</p>
+    </footer>
+
+    <div id="scrollUp">
+        <button type="button" class="btn btn-light" onclick="document.location='#'" title="Vissza a tetejére"></button>
     </div>
 </body>
 
