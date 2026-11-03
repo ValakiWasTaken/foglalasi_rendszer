@@ -30,8 +30,67 @@
         </div>
     </nav>
 
-    <form action="" method="post">
-        
+    <form id="foglalas">
+        <div>
+            <label for="szolgaltatas">Szolgáltatás:</label>
+            <select id="szolgaltatas" name="szolgaltatas" required>
+                <option selected disabled value="">Kérem válasszon...</option>
+                <option value="gepi">Gépi hajvágás</option>
+                <option value="ollo">Ollós hajvágás</option>
+                <option value="szakall">Szakálligazítás</option>
+                <option value="gyerek">Gyermek hajvágás (12 éves korig)</option>
+            </select>
+        </div>
+        <div>
+            <p>Hajhossz:</p>
+            <input type="radio" name="hajhossz" id="rovid" required>
+            <label for="rovid">Rövid (< 8 cm)</label>
+            <br>
+            <input type="radio" name="hajhossz" id="kozepes">
+            <label for="kozepes">Közepes (< 25 cm)</label>
+            <br>
+            <input type="radio" name="hajhossz" id="hosszu">
+            <label for="hosszu">Hosszú (> 25 cm)</label>
+        </div>
+        <div>
+            <p>Extra:</p>
+            <input type="checkbox" name="mosas" id="mosas">
+            <label for="mosas">Mosás, szárítás</label>
+            <br>
+            <input type="checkbox" name="festes" id="festes">
+            <label for="festes">Hajfestés</label>
+        </div>
+        <div>
+            <p>Időpont:</p>
+            <input type="date" name="datum" id="datum" required>
+            <br>
+            <input type="radio" name="ido" id="kilenc_ora" class="btn-check" required>
+            <label for="kilenc_ora" class="btn btn-primary">9:00</label>
+            <input type="radio" name="ido" id="tiz_ora" class="btn-check">
+            <label for="tiz_ora" class="btn btn-primary">10:00</label>
+            <input type="radio" name="ido" id="tizenegy_ora" class="btn-check">
+            <label for="tizenegy_ora" class="btn btn-primary">11:00</label>
+            <input type="radio" name="ido" id="tizenharom_ora" class="btn-check">
+            <label for="tizenharom_ora" class="btn btn-primary">13:00</label>
+            <input type="radio" name="ido" id="tizennegy_ora" class="btn-check">
+            <label for="tizennegy_ora" class="btn btn-primary">14:00</label>
+            <input type="radio" name="ido" id="tizenot_ora" class="btn-check">
+            <label for="tizenot_ora" class="btn btn-primary">15:00</label>
+            <input type="radio" name="ido" id="tizenhat_ora" class="btn-check">
+            <label for="tizenhat_ora" class="btn btn-primary">16:00</label>
+            <input type="radio" name="ido" id="tizenhet_ora" class="btn-check">
+            <label for="tizenhet_ora" class="btn btn-primary">17:00</label>
+        </div>
+        <div>
+            <label for="nev">Név:</label>
+            <input type="text" name="nev" id="nev" required autocomplete="off">
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" required autocomplete="off">
+            <label for="telefon">Telefonszám:</label>
+            <input type="text" name="telefon" id="telefon" required autocomplete="off">
+        </div>
+        <p>Összeg: <span class="osszeg"></span></p>
+        <button id="foglalas" class="btn btn-primary">Foglalás</button>
     </form>
 
     <footer>
