@@ -5,19 +5,19 @@
 }
 
 .nav_common:hover {
-    color: red;
-}
-
-.nav_admin {
-    color: gray;
+    color: rgb(255, 255, 255);
 }
 
 .nav_gap {
     gap: 1rem;
 }
 
+.navbar a {
+    color: rgb(255, 255, 255);
+}
+
 .navbar {
-    background: pink !important; /*ideiglenes szín*/
+    background: rgb(0, 136, 224) !important; /*ideiglenes szín*/
 }
 
 footer {
@@ -27,7 +27,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: pink;
+    background-color: rgb(226, 76, 59);
 }
 
 footer p {

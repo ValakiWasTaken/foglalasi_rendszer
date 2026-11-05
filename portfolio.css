@@ -5,11 +5,14 @@
 }
 
 .nav_common:hover {
-    color: red;
+    color: rgb(0, 0, 0);
 }
 
 .nav_admin {
-    color: gray;
+    color: rgb(255, 255, 255);
+}
+.navbar a {
+    color: rgb(255, 255, 255);
 }
 
 .nav_gap {
@@ -18,7 +21,9 @@
 }
 
 .navbar {
-    background: pink !important; /*ideiglenes szín*/
+    color: rgb(255, 255, 255);
+    
+    background: rgb(0, 136, 224) !important; /*ideiglenes szín*/
 }
 
 header {
@@ -63,7 +68,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: pink;
+    background-color: rgb(226, 76, 59);
 }
 
 footer p {
@@ -92,4 +97,12 @@ footer p {
 .csillag{
     text-align: right;
     color: #ffc107;
+}
+
+.card-img-top{
+    float: center;
+    
+    max-height: 220px;
+    height: auto;
+    width: auto;
 }

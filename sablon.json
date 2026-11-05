@@ -1,0 +1,16 @@
+[
+    {
+        "nev":"nev",
+        "email":"email",
+        "telefon":"telefon",
+        "datum":"datum",
+        "idopont":"idopont",
+        "szolgaltatas":"szolgaltatas",
+        "hajhossz":"hajhossz",
+        "mosas":true,
+        "festes":true,
+        "gondorites":true,
+        "osszeg":1,
+        "torolt":false
+    }
+]
