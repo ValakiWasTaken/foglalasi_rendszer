@@ -65,6 +65,39 @@ festes.addEventListener("change", () => {
 
 function updateOsszeg() {
     if (alap != 0) {
-        osszeg.innerHTML = alap * szorzo + extra *szorzo + " Ft"
+        osszeg.innerHTML = alap * szorzo + extra * szorzo + " Ft"
     }
 }
+
+function validacio() {
+    const date = new Date()
+    const today = new Date(date.toISOString().split("T")[0])
+    if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value) && /^(\+36|06)[\s-]?\d{1,2}[\s-]?\d{3}[\s-]?\d{3,4}$/.test(telefon.value) && new Date(datum.value) > today){
+        return true
+    }
+    else {
+        return false
+    }
+}
+
+foglalas.addEventListener("click", () => {
+    if (true) {
+        let storage = JSON.parse(localStorage.getItem("foglalasok")) ?? []
+        storage.push(
+            {
+                "nev": nev.value,
+                "email": email.value,
+                "telefon": telefon.value,
+                "datum": datum.value,
+                "idopont": idopont.value,
+                "szolgaltatas": szolgaltatas.value,
+                "hajhossz": hajhossz.value,
+                "mosas": mosas.checked,
+                "festes": festes.checked,
+                "gondorites": gondorites.checked,
+                "osszeg": osszeg.innerText
+            })
+        console.log(storage)
+        localStorage.setItem("foglalasok", JSON.stringify(storage))
+    }
+})

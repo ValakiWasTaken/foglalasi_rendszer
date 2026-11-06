@@ -29,6 +29,10 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: rgb(226, 76, 59);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 footer p {

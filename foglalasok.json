@@ -10,8 +10,7 @@
         "mosas":true,
         "festes":false,
         "gondorites":true,
-        "osszeg":8250,
-        "torolt":false
+        "osszeg":8250
     },
     {
         "nev":"Kovács János",
@@ -24,8 +23,7 @@
         "mosas":false,
         "festes":false,
         "gondorites":false,
-        "osszeg":3000,
-        "torolt":false
+        "osszeg":3000
     },
     {
         "nev":"Kis Gréta",
@@ -38,8 +36,7 @@
         "mosas":true,
         "festes":true,
         "gondorites":true,
-        "osszeg":24000,
-        "torolt":false
+        "osszeg":24000
     },
     {
         "nev":"Lakatos Bonifác",
@@ -52,8 +49,7 @@
         "mosas":false,
         "festes":true,
         "gondorites":true,
-        "osszeg":18000,
-        "torolt":false
+        "osszeg":18000
     },
     {
         "nev":"Keszthelyi Károly",
@@ -66,8 +62,7 @@
         "mosas":false,
         "festes":false,
         "gondorites":true,
-        "osszeg":4200,
-        "torolt":false
+        "osszeg":4200
     },
     {
         "nev":"Jenőfi Máté",
@@ -80,7 +75,6 @@
         "mosas":true,
         "festes":false,
         "gondorites":false,
-        "osszeg":4500,
-        "torolt":false
+        "osszeg":4500
     }
 ]
