@@ -41,7 +41,7 @@
                     <option selected disabled value="">Kérem válasszon...</option>
                     <option value="3500">Gépi hajvágás</option>
                     <option value="4000">Ollós hajvágás</option>
-                    <option value="3000">Szakálligazítás</option>
+                    <option value="10000">Hajfestés</option>
                     <option value="2500">Gyermek hajvágás (12 éves korig)</option>
                 </select>
                 <label for="szolgaltatas">Szolgáltatás:</label>
@@ -51,20 +51,20 @@
                     <p class="form_caption">Hajhossz:</p>
                     <input type="radio" name="hajhossz" id="rovid" value="1" required>
                     <label for="rovid">Rövid (< 8 cm)</label>
-                            <br>
-                            <input type="radio" name="hajhossz" id="kozepes" value="1.2">
-                            <label for="kozepes">Közepes (< 25 cm)</label>
-                                    <br>
-                                    <input type="radio" name="hajhossz" id="hosszu" value="1.5">
-                                    <label for="hosszu">Hosszú (> 25 cm)</label>
+                    <br>
+                    <input type="radio" name="hajhossz" id="kozepes" value="1.2">
+                    <label for="kozepes">Közepes (< 25 cm)</label>
+                    <br>
+                    <input type="radio" name="hajhossz" id="hosszu" value="1.5">
+                    <label for="hosszu">Hosszú (> 25 cm)</label>
                 </div>
                 <div class="form-check">
                     <p class="form_caption">Extra:</p>
                     <input type="checkbox" name="mosas" id="mosas" value="1000">
                     <label for="mosas">Mosás, szárítás</label>
                     <br>
-                    <input type="checkbox" name="festes" id="festes" value="10000">
-                    <label for="festes">Hajfestés</label>
+                    <input type="checkbox" name="szakall" id="szakall" value="3000">
+                    <label for="szakall">Szakálligazítás</label>
                     <br>
                     <input type="checkbox" name="gondorites" id="gondorites" value="1000">
                     <label for="gondorites">Hajgöndörítés</label>
@@ -77,21 +77,21 @@
             </div>
             <div class="form-check form_time">
                 <p class="form_caption time_caption">Időpont:</p>
-                <input type="radio" name="ido" id="kilenc_ora" value="9" class="btn-check" required>
+                <input type="radio" name="ido" id="kilenc_ora" value="9:00" class="btn-check" required>
                 <label for="kilenc_ora" class="btn btn-light">9:00</label>
-                <input type="radio" name="ido" id="tiz_ora" value="10" class="btn-check">
+                <input type="radio" name="ido" id="tiz_ora" value="10:00" class="btn-check">
                 <label for="tiz_ora" class="btn btn-light">10:00</label>
-                <input type="radio" name="ido" id="tizenegy_ora" value="11" class="btn-check">
+                <input type="radio" name="ido" id="tizenegy_ora" value="11:00" class="btn-check">
                 <label for="tizenegy_ora" class="btn btn-light">11:00</label>
-                <input type="radio" name="ido" id="tizenharom_ora" value="13" class="btn-check">
+                <input type="radio" name="ido" id="tizenharom_ora" value="13:00" class="btn-check">
                 <label for="tizenharom_ora" class="btn btn-light break">13:00</label>
-                <input type="radio" name="ido" id="tizennegy_ora" value="14" class="btn-check">
+                <input type="radio" name="ido" id="tizennegy_ora" value="14:00" class="btn-check">
                 <label for="tizennegy_ora" class="btn btn-light">14:00</label>
-                <input type="radio" name="ido" id="tizenot_ora" value="15" class="btn-check">
+                <input type="radio" name="ido" id="tizenot_ora" value="15:00" class="btn-check">
                 <label for="tizenot_ora" class="btn btn-light">15:00</label>
-                <input type="radio" name="ido" id="tizenhat_ora" value="16" class="btn-check">
+                <input type="radio" name="ido" id="tizenhat_ora" value="16:00" class="btn-check">
                 <label for="tizenhat_ora" class="btn btn-light">16:00</label>
-                <input type="radio" name="ido" id="tizenhet_ora" value="17" class="btn-check">
+                <input type="radio" name="ido" id="tizenhet_ora" value="17:00" class="btn-check">
                 <label for="tizenhet_ora" class="btn btn-light">17:00</label>
             </div>
             <hr>

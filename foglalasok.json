@@ -3,78 +3,78 @@
         "nev":"Varga Zsófia",
         "email":"vargazsofia@gmail.com",
         "telefon":"+36 30 111 2233",
-        "datum":"2026-10-05",
+        "datum":"2026-12-05",
         "idopont":"10:00",
         "szolgaltatas":"Gépi hajvágás",
         "hajhossz":"Hosszú",
         "mosas":true,
-        "festes":false,
+        "szakall":false,
         "gondorites":true,
-        "osszeg":8250
+        "osszeg":"8250 Ft"
     },
     {
         "nev":"Kovács János",
         "email":"kovacsjancsi@gmail.com",
         "telefon":"+36 30 222 3344",
-        "datum":"2026-11-01",
+        "datum":"2026-12-01",
         "idopont":"14:00",
-        "szolgaltatas":"Szakálligazítás",
+        "szolgaltatas":"Gépi hajvágás",
         "hajhossz":"Rövid",
         "mosas":false,
-        "festes":false,
+        "szakall":true,
         "gondorites":false,
-        "osszeg":3000
+        "osszeg":"6500 Ft"
     },
     {
         "nev":"Kis Gréta",
         "email":"gretakis@gmail.com",
         "telefon":"+36 30 333 4455",
-        "datum":"2026-09-12",
+        "datum":"2027-01-12",
         "idopont":"9:00",
         "szolgaltatas":"Ollós hajvágás",
         "hajhossz":"Hosszú",
         "mosas":true,
-        "festes":true,
+        "szakall":true,
         "gondorites":true,
-        "osszeg":24000
+        "osszeg":"13500 Ft"
     },
     {
         "nev":"Lakatos Bonifác",
         "email":"lakiboni@gmail.com",
         "telefon":"+36 30 444 5566",
-        "datum":"2026-10-20",
+        "datum":"2026-11-30",
         "idopont":"13:00",
         "szolgaltatas":"Ollós hajvágás",
         "hajhossz":"Közepes",
         "mosas":false,
-        "festes":true,
+        "szakall":true,
         "gondorites":true,
-        "osszeg":18000
+        "osszeg":"9600 Ft"
     },
     {
         "nev":"Keszthelyi Károly",
         "email":"k.karoly@gmail.com",
         "telefon":"+36 30 555 6677",
-        "datum":"2026-09-15",
+        "datum":"2027-01-15",
         "idopont":"14:00",
         "szolgaltatas":"Gyermek hajvágás (12 éves korig)",
         "hajhossz":"Közepes",
         "mosas":false,
-        "festes":false,
+        "szakall":false,
         "gondorites":true,
-        "osszeg":4200
+        "osszeg":"4200 Ft"
     },
     {
         "nev":"Jenőfi Máté",
         "email":"matejeno@gmail.com",
         "telefon":"+36 30 666 7788",
-        "datum":"2026-10-09",
+        "datum":"2026-11-29",
         "idopont":"11:00",
         "szolgaltatas":"Gépi hajvágás",
         "hajhossz":"Rövid",
         "mosas":true,
-        "festes":false,
+        "szakall":false,
         "gondorites":false,
-        "osszeg":4500
+        "osszeg":"4500 Ft"
     }
 ]
